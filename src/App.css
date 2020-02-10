@@ -1,38 +1,121 @@
 .App {
   text-align: center;
+  height: 100%;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bgimg-1 {
+background-image: url("nails.png");
+min-height: 100vh;
 }
-
+          
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+          
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  padding-left: 7em;
+  padding-right: 7em;
+  justify-content: space-evenly;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 6vw;
+  font-weight: lighter;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Grand Hotel', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.menu-bar{
+  padding: 1em;
+}
+
+.staffSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 4vw;
+}
+
+img{
+  height: 200px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.staffPhotos{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.staffText{
+  width: 30%;
+  padding: 1vw;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+}
+
+h4{
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 0;
+  margin: .5vw;
+}
+
+.menu-link:link {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-link:visited {
+  text-decoration: none;
+    color: white;
+}
+
+.menu-link:hover {
+  text-decoration: none;
+    color: white;
+}
+
+.menu-link:active {
+  text-decoration: none;
+    color: white;
+}
+
+a.anchor{
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
 }
