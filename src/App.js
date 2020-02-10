@@ -22,61 +22,66 @@ function App() {
           <h1>Nail Essentials</h1>
           <h3 className="menu-bar">FAQ</h3>
           <h3 className="menu-bar">BLOG</h3>
-          <h3 className="menu-bar">BOOK AN APPOINTMENT</h3>
+          <a
+            className="menu-link"
+            href="https://www.vagaro.com/us04/nailessentials2"
+          >
+            <h3 className="menu-bar">BOOK AN APPOINTMENT</h3>
+          </a>
         </div>
       </div>
 
       <div>
         <div>
           <a className="anchor" name="staffSection"></a>
-            <div className="staffSection">
-              <div className="staffText">
-                <h1>Staff</h1>
-                <h3>
-                  We are extremely proud to have 3 CND Grand Master Nail Techs,
-                  4 licensed Nail Instructors and 3 Certified Toe Nail
-                  Reconstruction Specialists on staff.
-                </h3>
-              </div>
-              <div className="staffPhotos">
-                <div className="row1">
-                  <div>
-                    <img src={staffPhoto1}></img>
-                    <h4>Jeri</h4>
-                  </div>
-                  <div>
-                    <img src={staffPhoto2}></img>
-                    <h4>Michelle</h4>
-                  </div>
-                  <div>
-                    <img src={staffPhoto3}></img>
-                    <h4>Kimberly</h4>
-                  </div>
-                  <div>
-                    <img src={staffPhoto4}></img>
-                    <h4>Cindy</h4>
-                  </div>
+          <div className="staffSection">
+            <div className="staffText">
+              <h1>Staff</h1>
+              <h3>
+                We are extremely proud to have 3 CND Grand Master Nail Techs, 4
+                licensed Nail Instructors and 3 Certified Toe Nail
+                Reconstruction Specialists on staff.
+              </h3>
+            </div>
+            <div className="staffPhotos">
+              <div className="row1">
+                <div>
+                  <img src={staffPhoto1}></img>
+                  <h4>Jeri</h4>
                 </div>
-                <div className="row1">
-                  <div>
-                    <img src={staffPhoto5}></img>
-                    <h4>Carly</h4>
-                  </div>
-                  <div>
-                    <img src={staffPhoto6}></img>
-                    <h4>Renee</h4>
-                  </div>
-                  <div>
-                    <img src={staffPhoto7}></img>
-                    <h4>Stephanie</h4>
-                  </div>
-                  <div>
-                    <img src={staffPhoto8}></img>
-                    <h4>Kayli</h4>
-                  </div>
+                <div>
+                  <img src={staffPhoto2}></img>
+                  <h4>Michelle</h4>
+                </div>
+                <div>
+                  <img src={staffPhoto3}></img>
+                  <h4>Kimberly</h4>
+                </div>
+                <div>
+                  <img src={staffPhoto4}></img>
+                  <h4>Cindy</h4>
+                </div>
+              </div>
+              <div className="row1">
+                <div>
+                  <img src={staffPhoto5}></img>
+                  <h4>Carly</h4>
+                </div>
+                <div>
+                  <img src={staffPhoto6}></img>
+                  <h4>Renee</h4>
+                </div>
+                <div>
+                  <img src={staffPhoto7}></img>
+                  <h4>Stephanie</h4>
+                </div>
+                <div>
+                  <img src={staffPhoto8}></img>
+                  <h4>Kayli</h4>
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
 
